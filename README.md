@@ -18,9 +18,9 @@ The CNN model used in this project is inspired by Goodfellow, I.J., et.al. (2013
 Usage:
 - Use array_to_image.ipynb to transform the array in fer_2013.csv to image.
 - Modify camera.py to suit your purpose.
-- In Line 6/7, you can choose to use version 1 or version 2.
+- In Line 6/7, you can choose to use version 1 or version 2.  
 - model = FacialExpressionModel("model_v1.json", "model_weights_v1.h5")
-- In line 12/13, you can choose to either use 0 (connect to your own webcam) or your own video.
+- In line 12/13, you can choose to either use 0 (connect to your own webcam) or your own video.  
 - self.video = cv2.VideoCapture("/Users/expression_test.mp4") or cv2.VideoCapture(0)
 
 
