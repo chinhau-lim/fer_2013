@@ -7,6 +7,7 @@ In this project, we developed two different models :
 - Model 2: 6 out of 7 universal facial expression - w/o disgust (Validation Accuracy = 0.62)
 
 Usage:
+- Use array_to_image.ipynb to transform the array in fer_2013.csv to image.
 - Modify camera.py to suit your purpose.
 - In Line 6/7, you can choose to use version 1 or version 2.
 - In line 12/13, you can choose to either use 0 (connect to your own webcam) or your own video.
