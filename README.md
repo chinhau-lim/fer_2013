@@ -11,8 +11,10 @@ Usage:
 - In Line 6/7, you can choose to use version 1 or version 2.
 - In line 12/13, you can choose to either use 0 (connect to your own webcam) or your own video.
 
-Example when applied our model to one of our video clips:
+
+#### Example when applied our model to one of our video clips:
 ![](fer_sample.gif)
+
 
 Reference:
 Link: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/overview/description
