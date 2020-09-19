@@ -2,12 +2,19 @@
 
 This project uses the FER2013.csv dataset from the Kaggle Competition. In this project, we develop a facial expression recognition model using Convolutional Neural Network (CNN) and deploy the trained model to a web interface with Flask that enable the users to detect facial expression in real-time or on video/image data.
 
+
 Before anything else, 
 - Download the fer2013.csv dataset from https://www.kaggle.com/deadskull7/fer2013 
+
 
 In this project, we developed two different models : 
 - Model 1: with all 7 universal facial expression (Validation Accuracy = 0.64)
 - Model 2: 6 out of 7 universal facial expression - w/o disgust (Validation Accuracy = 0.62)
+
+The CNN model used in this project is inspired by Goodfellow, I.J., et.al. (2013). Challenged in representation learning: A report of three machine learning contests. Neural Networks, 64, 59-63. https://arxiv.org/abs/1307.0414
+
+![](cnn.png)
+
 
 Usage:
 - Use array_to_image.ipynb to transform the array in fer_2013.csv to image.
