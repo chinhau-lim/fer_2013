@@ -1,6 +1,6 @@
 ## Challenges in Representation Learning: Facial Expression Recognition Challenge
 
-#### This project uses the FER2013.csv dataset from the Kaggle Competition. In this project, we develop a facial expression recognition model using Convolutional Neural Network (CNN) and deploy the trained model to a web interface with Flask that enable the users to detect facial expression in real-time or on video/image data.
+This project uses the FER2013.csv dataset from the Kaggle Competition. In this project, we develop a facial expression recognition model using Convolutional Neural Network (CNN) and deploy the trained model to a web interface with Flask that enable the users to detect facial expression in real-time or on video/image data.
 
 In this project, we developed two different models : 
 - Model 1: with all 7 universal facial expression (Validation Accuracy = 0.64)
